@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     minHeight: "80vh",
     color: "#fff",
     fontFamily: "Roboto ",
-    backgroundImage: `url(${"/assets/layout.jpg"})`,
+    backgroundImage: `url(${"/assets/headerlayout.jpg"})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center bottom",

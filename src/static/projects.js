@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Social Media",
     desc: " Using Next Js , Express ,Node JS , Socket.IO",
-    imageUrl: "/assets/socialmedia.jpg",
+    imageUrl: "/assets/socialmediaproject.jpg",
     link: "https://jer-social-media.herokuapp.com/login",
     time: 1500,
   },
