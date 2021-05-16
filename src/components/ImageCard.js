@@ -31,6 +31,7 @@ const useStyles = makeStyles(() => ({
   },
   viewPopup: {
     fontSize: "2",
+    color: "#00000",
     position: "absolute",
     top: "50%",
     left: "50%",
@@ -59,7 +60,7 @@ export default function ImgMediaCard({ project }) {
 
   return (
     <>
-      <Link href={project.link}>
+      <Link href={project.link} target="_blank">
         <motion.div
           variants={cardVariant}
           onMouseEnter={() => setView(true)}
@@ -81,7 +82,7 @@ export default function ImgMediaCard({ project }) {
                   <h2>{project.title}</h2>
                 </div>
                 <div className={classes.viewPopup}>
-                  <h2>View</h2>
+                  <h2 style={{ color: "#C5C6C7" }}>View</h2>
                 </div>
               </>
             )}

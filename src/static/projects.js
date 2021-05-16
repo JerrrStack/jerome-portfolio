@@ -1,14 +1,14 @@
 const projects = [
   {
-    title: "Invetory System",
-    desc: " Using Php and Laravel",
-    imageUrl: "/assets/project.jpg",
-    link: "",
+    title: "Social Media",
+    desc: " Using Next Js , Express ,Node JS , Socket.IO",
+    imageUrl: "/assets/SocialMedia.jpg",
+    link: "https://jer-social-media.herokuapp.com/login",
     time: 1500,
   },
   {
-    title: "Chat Messaging",
-    desc: "Using Mern Stack and Socket.io",
+    title: "Inventory System",
+    desc: "Using MernStack",
     imageUrl: "/assets/project.jpg",
     link: "",
     time: 1500,

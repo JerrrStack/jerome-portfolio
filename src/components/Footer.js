@@ -54,7 +54,7 @@ function Footer() {
           </span>
         </Button>
       </div>
-      <footer>www.heroku-jer-portfolio.com</footer>
+      <footer>jer-portfolio.herokuapp.com</footer>
     </Container>
   );
 }
